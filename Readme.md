@@ -1,0 +1,1 @@
+This is a collection of Coursera's python for everyone course examples and exercises
