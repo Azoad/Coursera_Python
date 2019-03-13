@@ -1,0 +1,15 @@
+Our First Database
+
+CREATE TABLE Ages ( 
+  name VARCHAR(128), 
+  age INTEGER
+)
+
+DELETE FROM Ages;
+INSERT INTO Ages (name, age) VALUES ('Nidhish', 31);
+INSERT INTO Ages (name, age) VALUES ('Jennie', 40);
+INSERT INTO Ages (name, age) VALUES ('Siobhan', 34);
+INSERT INTO Ages (name, age) VALUES ('Razan', 27);
+INSERT INTO Ages (name, age) VALUES ('Sohail', 26);
+
+SELECT hex(name || age) AS X FROM Ages ORDER BY X
