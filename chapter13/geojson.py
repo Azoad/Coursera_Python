@@ -8,7 +8,7 @@ import urllib.error
 import urllib.parse
 import json
 import ssl
-# API key AIzaSyCMNwgmRl79ETkIVXMWC58lH8wW5BrAbss
+
 
 api_key = False
 # If you have a Google Places API key, enter it here
